@@ -30,7 +30,6 @@ com\portfolio\mgb\Entity\hys.class
 com\portfolio\mgb\Security\jwt\JwtEntryPoint.class
 com\portfolio\mgb\Security\Repository\IRolRepository.class
 com\portfolio\mgb\Security\MainSecurity.class
-com\portfolio\mgb\MgbApplication$1.class
 com\portfolio\mgb\Dto\dtoEducacion.class
 com\portfolio\mgb\Service\SExperiencia.class
 com\portfolio\mgb\Dto\DtoPersona.class

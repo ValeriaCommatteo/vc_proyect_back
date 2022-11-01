@@ -4,17 +4,15 @@ import java.util.Arrays;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import static org.springframework.security.config.web.server.ServerHttpSecurity.http;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
 public class MgbApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WebMvcConfigurer.class, args);
+        SpringApplication.run(MgbApplication.class, args);
     }
 
     @Bean
