@@ -12,6 +12,7 @@ import org.springframework.web.filter.CorsFilter;
 public class MgbApplication {
 
     public static void main(String[] args) {
+        // No cambiar el nombre de la aplicacion
         SpringApplication.run(MgbApplication.class, args);
     }
 
